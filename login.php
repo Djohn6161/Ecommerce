@@ -112,7 +112,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             <p style="margin: 0px 0px 0px 10px;">RCV PROJECT</p>
                             </div>   
                     </div>
-                <nav>
+                <nav><!-- Mabata si -->
                     <ul id="MenuItems">
                         <li><a href="index.php">Home</a></li>
                         <li><a href="#game">Games</a></li>
