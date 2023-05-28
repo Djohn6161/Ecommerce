@@ -1,6 +1,6 @@
 <?php
     $link=mysqli_connect("localhost", "root");
-    mysqli_select_db($link,"ecommerce");
+    mysqli_select_db($link,"ecommerce_proj");
     $id=$_GET["id"];
     $q = "delete from games where id=$id";
     $q2 = "select * from games where id=$id";
